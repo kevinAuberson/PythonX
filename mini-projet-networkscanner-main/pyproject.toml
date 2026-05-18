@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "mini-projet-networkscanner"
+version = "0.1.0"
+description = ""
+authors = [
+    "StefBianchet <stefano.bianchet@heig-vd.ch>"
+]
+readme = "README.md"
+packages = [{include = "networkscanner", from = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+click = "^8.2.1"
+python3-nmap = "^1.9.1"
+streamlit = "^1.45.1"
+networkx = "^3.5"
+matplotlib = "^3.10.3"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.4.0"
+pytest-cov = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
