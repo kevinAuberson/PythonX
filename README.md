@@ -9,6 +9,7 @@ Généralités :
 - Utilisation de Jupyter Notebook
 - Installation de paquets
 - Environnements virtuels
+
 Fondements du langage :
 - Classes et fonctions
 - Héritage
@@ -20,6 +21,7 @@ Fondements du langage :
 - Exceptions
 - Fonctions lambda
 - List compréhensions
+
 Applications par domaines :
 - Numpy, Scipy (manipulation de vecteurs, et calcul scientifique)
 - Flask (serveur web)
@@ -27,6 +29,7 @@ Applications par domaines :
 - YAML, JSON (sérialisation et désérialisation de données)
 - Ctype (interface avec C)
 - Interfaces graphiques
+
 Travail collaboratif :
 - Tests
 - PEP8
